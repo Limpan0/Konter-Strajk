@@ -29,7 +29,7 @@ shooterGame.system.Main = function() {
         resources: shooterGame.data.Requests,
         useGamepads:true,
         useKeyboard:true,
-        framerate: 30,
+        framerate: 60,
         debug: false
     });
 };
