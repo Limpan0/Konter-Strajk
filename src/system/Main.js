@@ -24,13 +24,13 @@ shooterGame.system.Main = function() {
     rune.system.Application.call(this, {
         developer: "se.lnu",
         app: "shooterGame",
-        build: "1.0.0",
+        build: "1.2.0",
         scene: shooterGame.scene.Menu,
         resources: shooterGame.data.Requests,
         useGamepads:true,
         useKeyboard:true,
-        framerate: 60,
-        debug: true
+        framerate: 30,
+        debug: false
     });
 };
 
